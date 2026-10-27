@@ -4,7 +4,7 @@ An end-to-end NLP and LLM-powered sentiment analysis pipeline for citizen feedba
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Citizen engagement platforms generate critical qualitative feedback for public policy and administrative governance. This project automates the ingestion, normalization, and sentiment classification of citizen feedback:
 
@@ -15,7 +15,7 @@ Citizen engagement platforms generate critical qualitative feedback for public p
 
 ---
 
-## 📁 Project Directory Structure
+## Project Directory Structure
 
 ```text
 ├── assets/
@@ -44,7 +44,7 @@ Citizen engagement platforms generate critical qualitative feedback for public p
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 1. Copy `.env.example` to create your local `.env`:
    ```bash
@@ -58,7 +58,7 @@ Citizen engagement platforms generate critical qualitative feedback for public p
 
 ---
 
-## 🔄 Pipeline Workflow & How to Run
+## Pipeline Workflow & How to Run
 
 ### 1. ID Generation & Dataset Merging
 Assigns continuous, non-overlapping IDs across portal datasets and builds the unified master raw dataset:
@@ -87,7 +87,7 @@ python src/llm_sentiment_analyzer.py
 
 ---
 
-## 📊 Executive Overview Dashboard
+## Executive Overview Dashboard
 
 ![Executive Overview Dashboard](assets/dashboard_overview.png)
 
